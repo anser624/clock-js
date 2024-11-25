@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.container{
+    flex-direction: column;    
+    display: flex;
+    justify-content: center;
+    row-gap: 3rem;
+    align-items: center;
+    height: 90vh;
+}
+.name{
+    background-color: white;
+}
+.month{
+    color: white;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 20vh;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 3rem;
+    box-shadow: 0.5rem 0.5rem 10px rgba(174, 255, 52, 0.747);
+    border: greenyellow;
+    background-color: greenyellow;
+}
